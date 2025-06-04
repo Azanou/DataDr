@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+.venv/ # Pour les environnements virtuels créés par Poetry ou autres
+venv_clean/ # Votre environnement virtuel spécifique
+
+# Byte-code files
+tests/__pycache__/
+utils/__pycache__/
+__pycache__/
+*.pyc
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+
+# Logs and other temporary files
+*.log
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Environment variables files
+.env
+.flaskenv
+
+# IDE specific files
+.vscode/ # If you use VS Code and don't want to commit workspace settings
+.idea/   # If you use PyCharm/IntelliJ
