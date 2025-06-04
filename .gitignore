@@ -5,7 +5,6 @@ venv_clean/ # Votre environnement virtuel spécifique
 
 # Byte-code files
 tests/__pycache__/
-utils/__pycache__/
 __pycache__/
 *.pyc
 
