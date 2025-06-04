@@ -2,7 +2,7 @@ from math import sqrt
 from scipy.stats import norm
 
 def run_proportion_test(x, n, p0, alpha=0.05):
-    p_hat = x / n
+    p_hat = x / n 
     std_error = sqrt(p0 * (1 - p0) / n)
     z = (p_hat - p0) / std_error
     z_crit = norm.ppf(1 - alpha / 2)
